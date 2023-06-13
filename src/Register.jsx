@@ -48,9 +48,16 @@ const Register = () => {
         setValidMatch(match)
     }, [pwd, matchPwd])
 
+    useEffect(() => {
+        setErrMsg('');
+    }, [user, pwd, matchPwd])
+
     return (
         <section>
+            <h1>Register</h1>
+            <form>
 
+            </form>
         </section>
     )
 }
